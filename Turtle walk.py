@@ -17,7 +17,7 @@ def new_coor(cur_coor,factor,theta):
     return x+delx,y+dely
 
 def turtle_walk(factor = 100,rate_of_change=1,iteration=1000,save=False):
-    size=(200* factor, 200* factor)
+    size=(5000* factor, 5000* factor)
     x,y = round(size[0]/2), round(size[1]/2)
     minx,maxx,miny,maxy = x,x,y,y
     im = Image.new("RGB",size)
